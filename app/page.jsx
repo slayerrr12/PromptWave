@@ -2,19 +2,19 @@
 import Feed from '@components/Feed'
 
 const Home = () => (
-  <section className='w-full flex-center flex-col'>
+  <section className='m-y-3 w-full flex-center flex-col'>
     <h1 className="text-6xl text-center font-semibold 
             bg-gradient-to-r bg-clip-text  text-transparent 
             from-indigo-500 via-purple-500 to-indigo-500
             animate-text
    
     ">
-      Dive into and Elevate
+      Dive into and Elevate.
 
       <br className="max-md:hidden" />
       <span className="text-5xl text-center font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
 
-      AI PROMPTS
+        AI PROMPTS
 
 
       </span>
@@ -25,7 +25,7 @@ const Home = () => (
 
     </p>
 
-     {/* this is for feed */}
+    {/* this is for feed */}
 
 
 
