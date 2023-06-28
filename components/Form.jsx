@@ -4,8 +4,8 @@ import Link from "next/link";
 const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
   return (
     <section className="w-full max-w-full flex-start flex-col">
-      <h1 class="my-8 px-2 drop-shadow-lg  mb-4 text-3xl font-extrabold text-gray-900 dark:text-black md:text-5xl lg:text-6xl">
-        <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+      <h1 className="my-8 px-2 drop-shadow-lg  mb-4 text-3xl font-extrabold text-gray-900 dark:text-black md:text-5xl lg:text-6xl">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
           Create
         </span>{" "}
         Prompts
@@ -49,7 +49,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
           required
           className="form_input"
         />
-        <div className="flex-end mx-3 mb-5 gap-4 my-6">
+        <div className="flex-end mx-3  gap-4 mt-6">
           <Link href="/" className="text-gray-500 text-sm">
             Cancel
           </Link>

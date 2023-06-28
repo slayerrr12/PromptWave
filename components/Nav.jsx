@@ -74,7 +74,7 @@ const Nav = () => {
                                 </span>
                             </a>
 
-                            <Link href="/profile">
+                            {/* <Link href="/profile">
                                 <Image
                                     src="/assets/images/profile.jpg"
                                     width={37}
@@ -82,7 +82,7 @@ const Nav = () => {
                                     className="rounded-full"
                                     alt="profile"
                                 />
-                            </Link>
+                            </Link> */}
                         </>
                     ) : (
                         <>
