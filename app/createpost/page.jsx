@@ -21,7 +21,7 @@ const CreatePrompt = () => {
     return (
 
 
-        <From
+        <Form
 
             type="Create"
             post={post}
