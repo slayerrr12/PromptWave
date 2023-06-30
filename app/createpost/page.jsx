@@ -39,12 +39,13 @@ const CreatePrompt = () => {
   };
 
   return (
-    
 
-    
+
+
     <Form
       type="Create"
       post={post}
+      description={"Share your unique prompt and unleash the full capabilities of AI to receive imaginative and inspiring responses. Let your ideas soar and watch as the AI transforms them into captivating stories, unlocking a universe of possibilities."}
       setPost={setPost}
       submitting={submitting}
       handleSubmit={createPrompt}

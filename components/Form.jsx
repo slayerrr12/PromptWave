@@ -1,20 +1,17 @@
 import React from "react";
 import Link from "next/link";
 
-const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
+const Form = ({ type, description , post, setPost, submitting, handleSubmit }) => {
   return (
     <section className="w-full max-w-full flex-start flex-col">
       <h1 className="my-8 px-2 drop-shadow-lg  mb-4 text-3xl font-extrabold text-gray-900 dark:text-black md:text-5xl lg:text-6xl">
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-          Create
+          {type}
         </span>{" "}
         Prompts
       </h1>
       <p className="desc text-left max-w-md">
-        Unleash boundless imagination with AI's mind-bending prompts,
-        transcending the limits of what you thought possible. Prepare for an
-        exhilarating journey where reality and imagination merge in electrifying
-        harmony.
+        {description}
       </p>
       <form
         onSubmit={handleSubmit}
