@@ -70,7 +70,7 @@ const Nav = () => {
                                 
                                 onClick={()=>{
                                     signOut();
-                                    router.push("/");
+                                    redirect('/')
 
                                 }
                                     }
