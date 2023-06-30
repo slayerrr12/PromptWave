@@ -54,26 +54,13 @@ const Nav = () => {
                 <div className="flex gap-3 md:gap-5 items-center">
                     {session?.user ? (
                         <>
-                            <Link href="/createpost">
-                                <button class="relative inline-block px-4 py-2 font-medium group">
-                                    <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-                                    <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
-                                    <span class="relative text-black group-hover:text-white">
-                                        Create Post
-                                    </span>
-                                </button>
+                            <Link href='/create-prompt' className='black_btn'>
+                                Create Post
                             </Link>
 
-                            <a
-                                onClick={handleSignOut}
-                                class="relative inline-block px-4 py-2 font-medium group"
-                            >
-                                <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-                                <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
-                                <span class="relative text-black group-hover:text-white">
-                                    Sign Out
-                                </span>
-                            </a>
+                            <button type='button' onClick={signOut} className='outline_btn'>
+                                Sign Out
+                            </button>
 
                             <Link href="/profile">
                                 <Image
