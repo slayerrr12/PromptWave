@@ -9,7 +9,7 @@ import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 
 const Nav = () => {
-    const router = useRouter();
+    
     const { data: session } = useSession();
     const [providers, setProviders] = useState(null);
 
@@ -19,10 +19,7 @@ const Nav = () => {
             setProviders(res);
         })();
     }, []);
-    const handleSignOut = async () => {
-        await signOut();
-      
-    };
+    
 
     return (
         <nav className="min-w-full flex justify-between items-center py-4 px-6">
