@@ -31,6 +31,7 @@ const Feed = () => {
     const data = await response.json();
 
     setAllPosts(data);
+    console.log(data)
   };
 
   useEffect(() => {
