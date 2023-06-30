@@ -70,7 +70,7 @@ const Nav = () => {
                                 on
                                 onClick={()=>{
                                     redirect('/')
-                                    signOut
+                                    signOut()
                                 }}
                                 class="relative inline-block px-4 py-2 font-medium group"
                             >
