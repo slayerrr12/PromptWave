@@ -29,11 +29,12 @@ const handler = NextAuth({
     
         // check if a user already exists
         const userExists = await User.findOne({ email: profile.email });
+        console.log(profile)
         if (!userExists) {
           await User.create({
             email: profile.email,
             username: profile.login.toLowerCase(),
-            image: profile.picture,
+            image: profile.avatar_url,
           });
         }
         return true;

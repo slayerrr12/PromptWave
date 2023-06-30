@@ -49,7 +49,7 @@ const Nav = () => {
                             <Link href="/createpost">
                                 <button
                                     
-                                    on
+                                
                                     
                                     class="relative inline-block px-4 py-2 font-medium group"
                                 >
@@ -74,15 +74,15 @@ const Nav = () => {
                                 </span>
                             </a>
 
-                            {/* <Link href="/profile">
+                            <Link href="/profile">
                                 <Image
-                                    src="/assets/images/profile.jpg"
+                                    src={session?.user.image}
                                     width={37}
                                     height={37}
                                     className="rounded-full"
                                     alt="profile"
                                 />
-                            </Link> */}
+                            </Link>
                         </>
                     ) : (
                         <>
