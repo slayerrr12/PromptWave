@@ -21,6 +21,7 @@ const Nav = () => {
     const handleSignOut = async () => {
         await signOut();
         router.push("/");
+        console.log("redirected")
     };
 
     return (
