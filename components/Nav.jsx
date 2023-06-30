@@ -1,3 +1,4 @@
+'use client'
 import Typewriter from "typewriter-effect";
 import React, { useEffect } from "react";
 import Link from "next/link";
