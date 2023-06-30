@@ -66,8 +66,8 @@ const Nav = () => {
                             </Link>
 
                             <a
-                                href="/"
-                                on
+                                
+                                
                                 onClick={signOut}
                                 class="relative inline-block px-4 py-2 font-medium group"
                             >
