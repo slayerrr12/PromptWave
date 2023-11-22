@@ -1,4 +1,4 @@
-# Project Name
+# PromptWave
 
 A brief description of your project.
 
@@ -8,7 +8,8 @@ Include any necessary installation instructions or prerequisites.
 
 ## Usage
 
-Provide examples of how to use your project.
+It is a prompt sharing website where you can Create and share prompts that can
+give you amazing results and also create your own prompts
 
 ## Contributing
 
