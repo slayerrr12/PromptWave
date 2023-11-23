@@ -1,5 +1,7 @@
 # PromptWave.
 
+Prompts sharing website
+
 ## Usage
 
 It is a prompt sharing website where you can Create and share prompts that can
