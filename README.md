@@ -25,6 +25,4 @@ We welcome contributions from the community! If you'd like to contribute to this
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Additional Information
 
-Add any additional information that may be helpful for users.
