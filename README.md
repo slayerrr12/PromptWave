@@ -1,6 +1,6 @@
-# PromptWave
+### PromptWave
 
-A brief description of your project.
+
 
 ## Installation
 
