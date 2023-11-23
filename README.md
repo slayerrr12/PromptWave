@@ -1,10 +1,4 @@
-### PromptWave
-
-
-
-## Installation
-
-Include any necessary installation instructions or prerequisites.
+# PromptWave.
 
 ## Usage
 
