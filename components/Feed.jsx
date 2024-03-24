@@ -31,7 +31,6 @@ const Feed = () => {
     const data = await response.json();
 
     setAllPosts(data);
-    console.log(data)
   };
 
   useEffect(() => {
@@ -77,7 +76,7 @@ const Feed = () => {
           value={searchText}
           onChange={handleSearchChange}
           required
-          className='search_input peer shadow-2xl shadow-red-950'
+          className='search_input peer'
         />
       </form>
 
