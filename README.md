@@ -1,4 +1,4 @@
-# PromptWave.
+# PromptopPedia.
 
 Prompts sharing website
 
