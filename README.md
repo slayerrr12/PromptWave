@@ -1,4 +1,4 @@
-# PromptopPedia.
+# PromptoPedia.
 
 Prompts sharing website
 
