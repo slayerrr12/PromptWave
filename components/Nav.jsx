@@ -35,7 +35,7 @@ const Nav = () => {
                     <p className="logo_text">
                         <Typewriter
                             options={{
-                                strings: ["PromptWave", "Find Awesome Prompts"],
+                                strings: ["PromptoPedia", "Find Awesome Prompts"],
                                 autoStart: true,
                                 loop: true,
                             }}
